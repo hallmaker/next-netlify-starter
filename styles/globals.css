@@ -34,3 +34,7 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+#netlify-identity-widget, #netlify-logo {
+    display: none !important;
+}
