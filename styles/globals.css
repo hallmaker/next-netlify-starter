@@ -18,6 +18,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: none; /* Ensure no bottom border */
+  margin-bottom: 0; /* Ensure no bottom margin */
+  padding-bottom: 0; /* Ensure no bottom padding */
 }
 
 code {
@@ -33,6 +36,15 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: none; /* Ensure no bottom border */
+  margin-bottom: 0; /* Ensure no bottom margin */
+  padding-bottom: 0; /* Ensure no bottom padding */
+}
+
+body {
+  border-bottom: none; /* Ensure no bottom border */
+  margin-bottom: 0; /* Ensure no bottom margin */
+  padding-bottom: 0; /* Ensure no bottom padding */
 }
 
 #netlify-identity-widget, #netlify-logo {
