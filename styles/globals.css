@@ -47,6 +47,12 @@ body {
   padding-bottom: 0; /* Ensure no bottom padding */
 }
 
+.logo {
+  max-width: 200px; /* Adjust the size as needed */
+  margin-bottom: 20px; /* Space between logo and the header */
+}
+
+
 #netlify-identity-widget, #netlify-logo {
     display: none !important;
 }
